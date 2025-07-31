@@ -14,8 +14,8 @@ spec:
       name: nginx
       labels:
         app: nginx
-        
+
     spec:
       containers:
-        - name: nginx-pod
+        - name: nginx-pods
           image: nginx
