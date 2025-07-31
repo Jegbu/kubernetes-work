@@ -3,7 +3,7 @@ kind: ReplicaSet
 metadata:
   name: myapp-replicaset
   labels:
-    app: myapp
+    app: nginx
 spec:
   selector:
     matchLabels:
