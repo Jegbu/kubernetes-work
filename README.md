@@ -14,7 +14,7 @@ This repository documents my journey as I master Kubernetes hands-on through lab
 - [x] Pods and YAML manifests
 - [x] ReplicaSets and scaling
 - [x] Label selectors and matching
-- [] Namespaces
+- [ ] Namespaces
 - [ ] Deployments and Rollbacks
 - [ ] Services and Networking
 - [ ] Volumes and Persistent Storage
