@@ -14,10 +14,11 @@ This repository documents my journey as I master Kubernetes hands-on through lab
 - [x] Pods and YAML manifests
 - [x] ReplicaSets and scaling
 - [x] Label selectors and matching
-- [ ] Namespaces
 - [x] Deployments and Rollbacks
+- [ ] Networking Basics
 - [ ] Services and Networking
 - [ ] Volumes and Persistent Storage
+- [ ] Namespaces
 - [ ] Multi-node setup with kubeadm
 
 ## 📁 Folder Structure
