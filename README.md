@@ -27,7 +27,7 @@ This repository documents my journey as I master Kubernetes hands-on through lab
 - `replicasets/` — ReplicaSet and scaling logic
 - `deployments/` — Deployments, rollbacks and upgrades
 - `services/` — Networking, types of services and how to configure them
-    - ![alt text](image.png) - Default nginx webpage
+    - ![alt text](image.png) Default nginx webpage with ports configured
 ## 🚀 Next Steps
 
 - Continue with KodeKloud CKA Labs
