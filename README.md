@@ -26,7 +26,7 @@ This repository documents my journey as I master Kubernetes hands-on through lab
 - `pods/` — Basic pod definitions
 - `replicasets/` — ReplicaSet and scaling logic
 - `deployments/` — Deployments, rollbacks and upgrades
-- `services/` — Networking, types of services and how to configure them
+- `services/` — Networking, types of services like node port, clusterIP, and LoadBalancers and how to configure them
     - ![alt text](image.png) Default nginx webpage with ports configured
 ## 🚀 Next Steps
 
