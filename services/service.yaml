@@ -3,6 +3,8 @@ kind: Service
 metadata:
   name: myapp-service
 
+# The type can be NodePort, ClusterIP, or LoadBalancer, in reality, need to make sure the target port and port are set correctly and if it is a node port config that is set properly too.
+
 spec:
   type: NodePort
   ports:

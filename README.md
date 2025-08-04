@@ -16,7 +16,7 @@ This repository documents my journey as I master Kubernetes hands-on through lab
 - [x] Label selectors and matching
 - [x] Deployments and Rollbacks
 - [x] Networking Basics
-- [ ] Services and Networking
+- [x] Services and Networking
 - [ ] Volumes and Persistent Storage
 - [ ] Namespaces
 - [ ] Multi-node setup with kubeadm
