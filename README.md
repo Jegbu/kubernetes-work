@@ -17,6 +17,7 @@ This repository documents my journey as I master Kubernetes hands-on through lab
 - [x] Deployments and Rollbacks
 - [x] Networking Basics
 - [x] Services and Networking
+- [x] Microservices Architecture
 - [ ] Volumes and Persistent Storage
 - [ ] Namespaces
 - [ ] Multi-node setup with kubeadm
@@ -28,6 +29,8 @@ This repository documents my journey as I master Kubernetes hands-on through lab
 - `deployments/` — Deployments, rollbacks and upgrades
 - `services/` — Networking, types of services like node port, clusterIP, and LoadBalancers and how to configure them
     - ![alt text](image.png) Default nginx webpage with ports configured
+- `voting-app-demo/` — Microservices architecture showcasing the use of services and how it connects to other pods in. a microservices architecture
+    - ![alt text](image-1.png) Voting App microservice
 ## 🚀 Next Steps
 
 - Continue with KodeKloud CKA Labs
