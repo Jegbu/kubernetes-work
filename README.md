@@ -31,6 +31,7 @@ This repository documents my journey as I master Kubernetes hands-on through lab
     - ![alt text](image.png) Default nginx webpage with ports configured
 - `voting-app-demo/` — Microservices architecture showcasing the use of services and how it connects to other pods in. a microservices architecture
     - ![alt text](image-1.png) Voting App microservice
+    - ![alt text](image-2.png) Result services which confirms access to the node ports and the services are communicating to one another
 ## 🚀 Next Steps
 
 - Continue with KodeKloud CKA Labs
