@@ -9,4 +9,4 @@ spec:
     - name: worker
       image: dockersamples/examplevotingapp_worker
 
-# Pod will no be exposed!
+# Pod will not be exposed!
