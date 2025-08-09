@@ -4,6 +4,7 @@ metadata:
   name: redis
   labels:
     app: redis
+    
 spec:
   replicas: 1
   selector:
@@ -15,13 +16,14 @@ spec:
         app: redis
     spec:
       containers:
-        - name: postgres
-          image: postgres:15-alpine
-          env:
-            - name: POSTGRES_USER
-              value: postgres
-            - name: POSTGRES_PASSWORD
-              value: postgres
+        - name: redis
+          image: redis:alpine
+          args: ["--protected-mode", "no", "--appendonly", "yes"]
           ports:
-            - containerPort: 5432
-              name: postgres
+            - containerPort: 6379
+              name: redis
+          readinessProbe:
+            tcpSocket:
+              port: 6379
+            initialDelaySeconds: 3
+            periodSeconds: 5
