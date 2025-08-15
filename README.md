@@ -19,6 +19,7 @@ This repository documents my journey as I master Kubernetes hands-on through lab
 - [x] Services and Networking
 - [x] Microservices Architecture
 - [ ] Volumes and Persistent Storage
+- [ ] Logging And Monitoring
 - [ ] Namespaces
 - [ ] Multi-node setup with kubeadm
 
