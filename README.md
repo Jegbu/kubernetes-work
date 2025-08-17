@@ -18,6 +18,7 @@ This repository documents my journey as I master Kubernetes hands-on through lab
 - [x] Networking Basics
 - [x] Services and Networking
 - [x] Microservices Architecture
+- [ ] Application Lifecycle Management
 - [ ] Volumes and Persistent Storage
 - [ ] Logging And Monitoring
 - [ ] Namespaces
