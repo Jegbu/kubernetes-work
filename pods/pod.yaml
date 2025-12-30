@@ -9,4 +9,4 @@ metadata:
 spec:
   containers:
     - name: nginx-pod
-      image: nginx
+      image: ngin
