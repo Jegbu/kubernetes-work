@@ -39,3 +39,4 @@ This repository documents my journey as I master Kubernetes hands-on through lab
 - Continue with KodeKloud CKA Labs
 - Launch full local cluster for offline LLM + Wikipedia project
 - Share journey on LinkedIn + Dev.to
+# test contribution
